@@ -1,0 +1,28 @@
+main {
+    min-height: calc(100vh - 160px);
+}
+
+img {
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#contenedor {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#card {
+    width: 300px;
+    margin: 20px;
+    border: rgb(129, 129, 129) solid 1px;
+}
+
+.card-body{
+    max-height: 250px;
+    min-height: 250px;
+    overflow-y: scroll;
+}
